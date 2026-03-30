@@ -1,0 +1,25 @@
+.unidades{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    
+}
+.unidades_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    gap: 80px;
+}
+.unidades_info h1{
+    font-size: 3rem;
+    white-space: nowrap;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+.unidades_info p{
+    text-align: start;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+
+}

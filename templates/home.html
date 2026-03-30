@@ -3,20 +3,70 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
-
+    <link rel="stylesheet" href="/Projeto-TI/static/css/global.css">
     <title>Zeeg</title>
   </head>
   <body>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/cardapio">Cardápio</a></li>
-            <li><a href="/sobre">Sobre</a></li>
-            <li><a href="/contato">Contato</a></li>
-        </ul>
-    </nav>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+		<div id="background">
+			<video loop autoplay muted>
+				<source src="/Projeto-TI/static/video/videoCozinha.mp4" type="video/mp4" />
+			</video>
+		</div>
+
+		<header>
+			<h1 class="logo">Z<span>EE</span>G</h1>
+			<img src="./assets/logoAcademia.png" alt="" />
+			<nav>
+				<ul>
+					<li>Home</li>
+					<li>Produtos</li>
+					<li>Contato</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="heroBanner">
+				<div class="chamada">
+					<h1>RODÍZIO JAPONÊS</h1>
+          <h1>Uma experiência <span>autêntica</span></h1>
+					<div class="btn">
+						<a href="" class="btn_saiba-mais">Reserve já</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="unidades">
+				<div class="unidades_info">
+					<h1>Nossa Culinária</h1>
+					<p>
+            O ZEEG SUSHI tem como base a fusão asiática, por meio dos nossos pratos e criações, queremos transmitir a vocês o afeto que temos pelo alimento e pela boa gastronomia. Sempre a procura de realizar vontades e satisfazer o cliente.
+          </p>
+				</div>
+			</section>
+
+      <section class="section-carrossel">
+          <div class="info_cardapio">
+            <h1>Zeeg Sushi</h1>
+            <h2>Cardápio</h2>
+            <h1>Nossos detaques</h1>
+            </div>  
+            <div class="container-carrossel" id="cards">
+             
+            </div>
+            <div class="controles">
+              <button onclick="voltar()"><</button>
+              <button onclick="avancar()">></button>
+            </div>
+    
+      </section>
+		</main>
+	<script src="/Projeto-TI/static/js/cru.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+</body>
 </html>
+
+    
