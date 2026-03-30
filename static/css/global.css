@@ -1,0 +1,13 @@
+@import url(./principal.css);
+@import url(./culinaria.css);
+@import url(./carrossel.css);
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
