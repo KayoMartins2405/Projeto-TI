@@ -1,21 +1,49 @@
 const api_produtos = [
 {
-    nome: "Combinado Premium",
+    nome: "Combinado <span class='premium'>Premium</span>",
     Imagem: "/Projeto-TI/static/img/imagem-carrossel1.jpg",
     numPecas: "30 pecas",
     preco: "154,99",
     ingrediente: "Feijão com farinha"
 },
 {
-    nome: "Combinado Premium",
+    nome: "Sashimi Especial",
     Imagem: "/Projeto-TI/static/img/imagem-carrossel2.jpg",
     numPecas: "30 pecas",
     preco: "154,99",
     ingrediente: "Feijão com farinha"
 },
 {
-    nome: "Combinado Premium",
+    nome: "Temaki",
     Imagem: "/Projeto-TI/static/img/imagem-carrossel3.jpg",
+    numPecas: "30 pecas",
+    preco: "154,99",
+    ingrediente: "Feijão com farinha"
+},
+{
+    nome: "Combinado <span class='premium'>Premium</span>",
+    Imagem: "/Projeto-TI/static/img/imagem-carrossel4.jpg",
+    numPecas: "30 pecas",
+    preco: "154,99",
+    ingrediente: "Feijão com farinha"
+},
+{
+    nome: "Combinado <span class='premium'>Premium</span>",
+    Imagem: "/Projeto-TI/static/img/imagem-carrossel4.jpg",
+    numPecas: "30 pecas",
+    preco: "154,99",
+    ingrediente: "Feijão com farinha"
+},
+{
+    nome: "Combinado Premium",
+    Imagem: "/Projeto-TI/static/img/imagem-carrossel4.jpg",
+    numPecas: "30 pecas",
+    preco: "154,99",
+    ingrediente: "Feijão com farinha"
+},
+{
+    nome: "Combinado Premium",
+    Imagem: "/Projeto-TI/static/img/imagem-carrossel4.jpg",
     numPecas: "30 pecas",
     preco: "154,99",
     ingrediente: "Feijão com farinha"

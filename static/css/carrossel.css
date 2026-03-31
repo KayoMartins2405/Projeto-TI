@@ -5,23 +5,17 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    position: relative;
 }
-/* .carrossel {
+.container-wrapper{
+
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding: 0px;
-    background: #0a0c10;
-    color: #fff;
-    text-align: center;
-} */
+}
 .container-carrossel{
     display: flex;
-    justify-content: center;
     gap: 30px;
-    position: relative;
-
-
-
 }
 .container-cards {
     display: flex;
@@ -33,16 +27,42 @@
     align-items: center;
     flex-direction: column;
     margin-bottom: 30px;
+    color: whitesmoke;
+}
+.info_cardapio h1:first-child{
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.info_cardapio h1:first-child::after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #e50914, transparent);
+    margin: 10px auto 0;
 }
 .card {
     background: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     color: gray;
     border-radius: 15px;
     padding: 20px;
     width: 300px;
     transition: 0.3s;
 }
-
+.card h3{
+    min-height: 50px;
+}
+.card p{
+    min-height: 60px;
+}
+.card button {
+    margin-top: auto;
+}
 .card:hover {
     transform: scale(1.05);
 }
@@ -51,7 +71,10 @@
     width: 100%;
     border-radius: 10px;
 }
-
+.premium{
+    color:  #e50914;
+    font-weight: bold;
+}
 .card button {
     margin-top: 10px;
     padding: 8px;
@@ -60,13 +83,24 @@
     color: #fff;
     cursor: pointer;
 }
-/* .controles{
+.controles{
     position: absolute;
-    top: 50%;
-    right: 20px; /* joga tudo pra direita */
-    /* transform: translateY(-50%);
+    right: 10%;
+    top: 25%;
+    transform: translateY(-50%);
     display: flex;
-    gap: 10px; /* espaço entre as setas */
-    /* z-index: 10;
+    gap: 10px;
+    z-index: 10;
 }
- */ 
+.controles button{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid #e50914;
+    transition: 0.3s;
+}
+.controles button:hover{
+    background-color: #e50914;
+}

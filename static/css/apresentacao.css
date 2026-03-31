@@ -1,0 +1,19 @@
+.imgs_apresentacoes {
+    width: 100%;
+    height: 60vh;
+    overflow: hidden; /* 👈 ESSENCIAL */
+}
+.images {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.imagem {
+    flex: 1;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
