@@ -1,6 +1,7 @@
 @import url(./principal.css);
 @import url(./culinaria.css);
 @import url(./carrossel.css);
+@import url(./apresentacao.css);
 
 html{
     scroll-behavior: smooth;
@@ -10,4 +11,7 @@ html{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
 }
