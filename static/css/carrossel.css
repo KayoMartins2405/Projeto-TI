@@ -1,0 +1,72 @@
+.section-carrossel{
+    background-color: #0a0c10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* .carrossel {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    background: #0a0c10;
+    color: #fff;
+    text-align: center;
+} */
+.container-carrossel{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+
+
+
+}
+.container-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.info_cardapio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.card {
+    background: #111;
+    color: gray;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 8px;
+    border: none;
+    background: #e50914;
+    color: #fff;
+    cursor: pointer;
+}
+/* .controles{
+    position: absolute;
+    top: 50%;
+    right: 20px; /* joga tudo pra direita */
+    /* transform: translateY(-50%);
+    display: flex;
+    gap: 10px; /* espaço entre as setas */
+    /* z-index: 10;
+}
+ */ 
