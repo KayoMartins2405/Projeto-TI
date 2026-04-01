@@ -84,7 +84,7 @@
     cursor: pointer;
 }
 .controles{
-    position: absolute;
+   
     right: 10%;
     top: 25%;
     transform: translateY(-50%);
