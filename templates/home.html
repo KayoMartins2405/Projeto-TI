@@ -4,29 +4,29 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap"
+			href="{{ url_for('static', filename='css/fonts.css') }}"
 			rel="stylesheet"
 		/>
 		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
 			rel="stylesheet"
 			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
-		<link rel="stylesheet" href="/Projeto-TI/static/css/global.css" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}" />
 		<title>Zeeg</title>
 	</head>
 	<body>
 		<div id="background">
 			<video loop autoplay muted>
-				<source src="/Projeto-TI/static/video/videoCozinha.mp4" type="video/mp4" />
+				<source src="{{ url_for('static', filename='video/videoCozinha.mp4') }}" type="video/mp4" />
 			</video>
 		</div>
 
 		<header>
 			<h1 class="logo">Z<span>EE</span>G</h1>
-			<img src="./assets/logoAcademia.png" alt="" />
+			<img src="{{ url_for('static', filename='img/logoAcademia.png') }}" alt="" />
 			<nav>
 				<ul>
 					<li>Home</li>
@@ -41,7 +41,7 @@
 					<h1>RODÍZIO JAPONÊS</h1>
 					<h1>Uma experiência <span>autêntica</span></h1>
 					<div class="btn">
-						<a href="" class="btn_saiba-mais">Reserve já</a>
+						<a href="{{ url_for}}" class="btn_saiba-mais">Reserve já</a>
 					</div>
 				</div>
 			</section>
@@ -74,17 +74,17 @@
 			</section>
 			
 			<section class="imgs_apresentacoes">
-				<!-- <div class="images">
-					<img class="imagem" src="/Projeto-TI/static/img/imagem-apresentacao1.jpg" alt="">
-					<img class="imagem" src="/Projeto-TI/static/img/imagem-apresentacao2.jpg" alt="">
-					<!-- <!-- <img class="imagem" src="/Projeto-TI/static/img/imagem-apresentacao3.jpg" alt=""> -->
-				:
+				 <div class="images">
+					<img class="imagem" src="{{ url_for('static', filename='img/imagem-apresentacao1.jpg') }}" alt="">
+					<img class="imagem" src="{{ url_for('static', filename='img/imagem-apresentacao2.jpg') }}" alt="">
+					 <img class="imagem" src="{{ url_for('static', filename='img/imagem-apresentacao3.jpg') }}" alt="">
+				
 			</section>
 		
 		</main>
-		<script src="/Projeto-TI/static/js/cru.js"></script>
+		<script src="{{ url_for('static', filename='js/cru.js') }}"></script>
 		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+			src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"
 			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
 			crossorigin="anonymous"
 		></script>
